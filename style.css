@@ -1,13 +1,24 @@
-/* خط ثمانية: يُحمَّل من assets/fonts/ إن وُجدت الملفات، وإلا يستعمل المتصفح الخطوط الاحتياطية (Reem Kufi وIBM Plex Sans Arabic) */
-@font-face{font-family:"Thmanyah";font-weight:400;font-display:swap;src:local("Thmanyah"),local("thmanyah"),url("assets/fonts/thmanyah-regular.otf") format("opentype")}
-@font-face{font-family:"Thmanyah";font-weight:500;font-display:swap;src:local("Thmanyah Medium"),url("assets/fonts/thmanyah-medium.otf") format("opentype")}
-@font-face{font-family:"Thmanyah";font-weight:700;font-display:swap;src:local("Thmanyah Bold"),url("assets/fonts/thmanyah-bold.otf") format("opentype")}
+/* خط ثمانية (Thmanyah): يُحمَّل من jsDelivr (مستودع webfont عام) */
+@font-face{font-family:"Thmanyah";font-weight:300;font-display:swap;src:url("https://cdn.jsdelivr.net/gh/eltawalbeh/thmanyah-fonts-public/thmanyahsans-Light.woff2") format("woff2")}
+@font-face{font-family:"Thmanyah";font-weight:400;font-display:swap;src:url("https://cdn.jsdelivr.net/gh/eltawalbeh/thmanyah-fonts-public/thmanyahsans-Regular.woff2") format("woff2")}
+@font-face{font-family:"Thmanyah";font-weight:500;font-display:swap;src:url("https://cdn.jsdelivr.net/gh/eltawalbeh/thmanyah-fonts-public/thmanyahsans-Medium.woff2") format("woff2")}
+@font-face{font-family:"Thmanyah";font-weight:700;font-display:swap;src:url("https://cdn.jsdelivr.net/gh/eltawalbeh/thmanyah-fonts-public/thmanyahsans-Bold.woff2") format("woff2")}
+@font-face{font-family:"Thmanyah";font-weight:900;font-display:swap;src:url("https://cdn.jsdelivr.net/gh/eltawalbeh/thmanyah-fonts-public/thmanyahsans-Black.woff2") format("woff2")}
+@font-face{font-family:"Thmanyah Sans";font-weight:300;font-display:swap;src:url("https://cdn.jsdelivr.net/gh/eltawalbeh/thmanyah-fonts-public/thmanyahsans-Light.woff2") format("woff2")}
+@font-face{font-family:"Thmanyah Sans";font-weight:400;font-display:swap;src:url("https://cdn.jsdelivr.net/gh/eltawalbeh/thmanyah-fonts-public/thmanyahsans-Regular.woff2") format("woff2")}
+@font-face{font-family:"Thmanyah Sans";font-weight:500;font-display:swap;src:url("https://cdn.jsdelivr.net/gh/eltawalbeh/thmanyah-fonts-public/thmanyahsans-Medium.woff2") format("woff2")}
+@font-face{font-family:"Thmanyah Sans";font-weight:700;font-display:swap;src:url("https://cdn.jsdelivr.net/gh/eltawalbeh/thmanyah-fonts-public/thmanyahsans-Bold.woff2") format("woff2")}
+@font-face{font-family:"Thmanyah Sans";font-weight:900;font-display:swap;src:url("https://cdn.jsdelivr.net/gh/eltawalbeh/thmanyah-fonts-public/thmanyahsans-Black.woff2") format("woff2")}
+@font-face{font-family:"Thmanyah Serif Display";font-weight:400;font-display:swap;src:url("https://cdn.jsdelivr.net/gh/eltawalbeh/thmanyah-fonts-public/thmanyahserifdisplay-Regular.woff2") format("woff2")}
+@font-face{font-family:"Thmanyah Serif Display";font-weight:500;font-display:swap;src:url("https://cdn.jsdelivr.net/gh/eltawalbeh/thmanyah-fonts-public/thmanyahserifdisplay-Medium.woff2") format("woff2")}
+@font-face{font-family:"Thmanyah Serif Display";font-weight:700;font-display:swap;src:url("https://cdn.jsdelivr.net/gh/eltawalbeh/thmanyah-fonts-public/thmanyahserifdisplay-Bold.woff2") format("woff2")}
+@font-face{font-family:"Thmanyah Serif Display";font-weight:900;font-display:swap;src:url("https://cdn.jsdelivr.net/gh/eltawalbeh/thmanyah-fonts-public/thmanyahserifdisplay-Black.woff2") format("woff2")}
 :root{
   --bg:#0B1220;--alt:#141A24;--surface:#1C2432;
   --ink:#F3EEE6;--mute:#A9A39A;--gold:#C9A27A;--teal:#3DD6C6;
   --sand:#EADFCF;--sand-ink:#2A2118;
-  --head:"Thmanyah","Reem Kufi","Tahoma",sans-serif;
-  --body:"Thmanyah","IBM Plex Sans Arabic","Tahoma",sans-serif;
+  --head:"Thmanyah Serif Display","Thmanyah","Tahoma",sans-serif;
+  --body:"Thmanyah","Tahoma",sans-serif;
   --serif:"Playfair Display",Georgia,serif;
 }
 *{box-sizing:border-box;margin:0}
