@@ -20,105 +20,105 @@ window.SITE = {
     "yahya": [
       {
         "name": "طارقة الهوى",
-        "img": "assets/images/yahya-hl-1.jpg"
+        "img": "assets/images/yahya.webp"
       },
       {
         "name": "يوم الجمعة",
-        "img": "assets/images/yahya-hl-2.jpg"
+        "img": "assets/images/yahya.webp"
       },
       {
         "name": "كتاب وصوتي",
-        "img": "assets/images/yahya-hl-3.jpg"
+        "img": "assets/images/yahya.webp"
       },
       {
         "name": "ربيع السنوات",
-        "img": "assets/images/yahya-hl-4.jpg"
+        "img": "assets/images/yahya.webp"
       },
       {
         "name": "رجال",
-        "img": "assets/images/yahya-hl-5.jpg"
+        "img": "assets/images/yahya.webp"
       },
       {
         "name": "مكتبة الطفل",
-        "img": "assets/images/yahya-hl-6.jpg"
+        "img": "assets/images/yahya.webp"
       },
       {
         "name": "نديم",
-        "img": "assets/images/yahya-hl-7.jpg"
+        "img": "assets/images/yahya.webp"
       }
     ],
     "ghazal": [
       {
         "name": "شراكة مؤسسية",
-        "img": "assets/images/ghazal-hl-1.jpg"
+        "img": "assets/yahya-rwiter.jpeg"
       },
       {
         "name": "قالوا عنا",
-        "img": "assets/images/ghazal-hl-2.jpg"
+        "img": "assets/yahya-rwiter.jpeg"
       },
       {
         "name": "عناية",
-        "img": "assets/images/ghazal-hl-3.jpg"
+        "img": "assets/yahya-rwiter.jpeg"
       },
       {
         "name": "التغليف",
-        "img": "assets/images/ghazal-hl-4.jpg"
+        "img": "assets/yahya-rwiter.jpeg"
       },
       {
         "name": "مشاريع وقفية",
-        "img": "assets/images/ghazal-hl-5.jpg"
+        "img": "assets/yahya-rwiter.jpeg"
       },
       {
         "name": "منتوجاتنا",
-        "img": "assets/images/ghazal-hl-6.jpg"
+        "img": "assets/yahya-rwiter.jpeg"
       },
       {
         "name": "يوميات مبهجة",
-        "img": "assets/images/ghazal-hl-7.jpg"
+        "img": "assets/yahya-rwiter.jpeg"
       }
     ],
     "sana": [
       {
         "name": "التابلت",
-        "img": "assets/images/sana-hl-1.jpg"
+        "img": "assets/yahya-setting-maahad.jpeg"
       },
       {
         "name": "الهواتف",
-        "img": "assets/images/sana-hl-2.jpg"
+        "img": "assets/yahya-setting-maahad.jpeg"
       },
       {
         "name": "آراء الزبناء",
-        "img": "assets/images/sana-hl-3.jpg"
+        "img": "assets/yahya-setting-maahad.jpeg"
       },
       {
         "name": "الحواسيب",
-        "img": "assets/images/sana-hl-4.jpg"
+        "img": "assets/yahya-setting-maahad.jpeg"
       },
       {
         "name": "الأكسسوارات",
-        "img": "assets/images/sana-hl-5.jpg"
+        "img": "assets/yahya-setting-maahad.jpeg"
       },
       {
         "name": "العروض",
-        "img": "assets/images/sana-hl-6.jpg"
+        "img": "assets/yahya-setting-maahad.jpeg"
       }
     ]
   },
   "gallery": [
     {
-      "img": "assets/images/ghazal-post-1.jpg"
+      "img": "assets/yahya-rwiter.jpeg"
     },
     {
-      "img": "assets/images/ghazal-post-2.jpg"
+      "img": "assets/yahya-rwiter.jpeg"
     },
     {
-      "img": "assets/images/ghazal-post-3.jpg"
+      "img": "assets/yahya-rwiter.jpeg"
     },
     {
-      "img": "assets/images/ghazal-post-4.jpg"
+      "img": "assets/yahya-rwiter.jpeg"
     },
     {
-      "img": "assets/images/ghazal-post-5.jpg"
+      "img": "assets/yahya-rwiter.jpeg"
     }
   ]
 };
